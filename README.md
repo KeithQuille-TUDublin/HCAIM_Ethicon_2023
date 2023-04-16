@@ -14,6 +14,12 @@
 
 
 ## Overview
+<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/16e35b153209d97dd526bdb37ecebdbae9dcd46b/components/evilVacCompany.jpg width=200>
+A new vaccine company- Vanintiilo, has created a new vaccine that claims to eliminate cancer. They plan to roll this out without the need for clinicians or doctors to administer the vaccine itself, thus aiming to stop delays and provide vaccines for everyone on the planet in a very short time. 
+
+
+To do this they are building automatic
+
 
 
 
