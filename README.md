@@ -3,16 +3,13 @@
 <img src=https://humancentered-ai.eu/wp-content/uploads/2022/04/boy-index.png width=400>
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+  <b>Table of Contents</b>
   <ol>
     <li><a href="#Overview">Overview</a></li>
     <li><a href="#Instructions">Instructions</a></li>
     <li><a href="#Dataset">Dataset</a></li>
     <li><a href="#Code">Code</a></li>
   </ol>
-</details>
 
 
 ## Overview
@@ -30,7 +27,7 @@ A new vaccine company- Vanintiilo, has created a new vaccine that claims to elim
 
 To do this they are building automatic vaccine booths where a picture is taken as a person walks in to the booth to recieve their vaccine, and depending on the AI that processes the image, one of two vaccines are administered. 
 
-#### Concerns for Ethicon
+**Concerns for Ethicon**
 
 There is a significant concern over the image system, as the vaccines have significant effects if given to the wrong sex. The company makes two vaccines, one for males and one for females. If given to the wrong sex, the vaccine can have significant effects on the reproduction system for that person, thus the image recognition system for the automated booths is a real concern.
 
