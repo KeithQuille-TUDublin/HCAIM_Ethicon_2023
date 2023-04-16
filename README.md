@@ -25,7 +25,10 @@ To do this they are building automatic vaccine booths where a picture is taken a
 There is a significant concern over the image system, as the vaccines have significant effects if given to the wrong sex. The company makes two vaccines, one for males and one for females. If given to the wrong sex, the vaccine can have significant effects on the reproduction system for that person, thus the image recognition system for the automated booths is a real concern.
 
 
+The company has claimed that it is 95% accurate at identifying sex when a person enters the booth, thus assuring the public that the overall system is safe.
 
+
+The company has released access to its production API so that we can test the soundness of its sex identification system for the automated booths. 
 
 
 ## Instructions
