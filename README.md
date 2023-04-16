@@ -9,7 +9,7 @@
   <ol>
     <li><a href="#Overview">Overview</a></li>
     <li><a href="#Instructions">Instructions</a></li>
-    <li><a href="#Datset">Datset</a></li>
+    <li><a href="#Dataset">Dataset</a></li>
     <li><a href="#Code">Code</a></li>
   </ol>
 </details>
@@ -45,7 +45,7 @@ The company has released access to its production API so that we can test the so
 The Ethicon aims
 
 
-## Datset
+## Dataset
 UTKFace dataset:
 
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/22f1c2c5a620eb8d53f5167a26d5f39c5bbfb029/components/logoWall2.jpg width=400>
