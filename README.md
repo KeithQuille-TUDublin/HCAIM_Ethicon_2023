@@ -44,6 +44,11 @@ The company has released access to its production API so that we can test the so
 
 ## Datset
 UTKFace dataset:
-<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/22f1c2c5a620eb8d53f5167a26d5f39c5bbfb029/components/logoWall2.jpg width=200>
 
-we will be using 
+<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/22f1c2c5a620eb8d53f5167a26d5f39c5bbfb029/components/logoWall2.jpg width=400>
+
+We will be using the same dataset as Vanintiilo, full details and the download can be found at: https://github.com/aicip/UTKFace
+
+It can also be downloaded via:  https://1drv.ms/f/s!An-taX4pRW2np7QrH7VlnvqvTd_Iuw?e=Qxnc6M
+
+
