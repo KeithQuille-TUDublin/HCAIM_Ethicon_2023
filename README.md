@@ -42,7 +42,13 @@ The company has released access to its production API so that we can test the so
 
 
 ## Instructions
-The Ethicon aims
+The Ethicon challenges students to investigate if the Vanintiilo facial idenitification system is indeed as accurate as they say and if it negatively affects target-groups (such as gender, race or age). To do this you must downlaod images from the UTKFace dataset (see Dataset section for details). They you must use the sample code that uses the Vanintiilo API to determine if the system is biased. There are three parts to the Ethicon:
+
+* To do this you must carefully (due to time constraintes and API call limitations - it takes time per request) select sample images that are representative of gender, race and age and determine if the system is as good as they say. (time alloted 1 hour)
+
+* The conclusion of this Ethicon is a presentation detailing any biases that you have found and how they may affect the people being vaccinated. (time allotted 30 minutes)
+
+* The presentations and judging of the winners (time allotted 30 minutes)
 
 
 ## Dataset
