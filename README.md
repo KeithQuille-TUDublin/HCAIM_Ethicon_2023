@@ -1,5 +1,7 @@
 # HCAIM Ethicon 2023
 
+<img src=https://humancentered-ai.eu/wp-content/uploads/2022/04/boy-index.png width=400>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -14,13 +16,8 @@
 ## Overview
 
 
-![HCAIM]https://user-images.githubusercontent.com/72391746/232308142-ebe4cacb-e0a0-41dc-bbb4-a689f6541adc.png
-
-
-
 
 ## Instructions
 
-<hr>
 
 ## Datsets
