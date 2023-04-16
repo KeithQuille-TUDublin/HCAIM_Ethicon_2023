@@ -47,9 +47,16 @@ UTKFace dataset:
 
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/22f1c2c5a620eb8d53f5167a26d5f39c5bbfb029/components/logoWall2.jpg width=400>
 
-We will be using the same dataset as Vanintiilo (<b>note: we used the Aligned&Cropped Faces version</b>), full details on this dataset, its file nameing scheme and the download zip file can be found at: https://github.com/aicip/UTKFace
+We will be using the same dataset as Vanintiilo (<b>note: we used the Aligned&Cropped Faces version</b>), full details on this dataset, its file nameing scheme and the download zip file can be found at: https://github.com/aicip/UTKFace 
 
 It can also be downloaded via:  https://1drv.ms/f/s!An-taX4pRW2np7QrH7VlnvqvTd_Iuw?e=Qxnc6M
 
+The labels of each face image is embedded in the file name, formated like `[age]_[gender]_[race]_[date&time].jpg`
+
+* `[age]` is an integer from 0 to 116, indicating the age
+* `[gender]` is either 0 (male) or 1 (female)
+* `[race]` is an integer from 0 to 4, denoting White, Black, Asian, Indian, and Others (like Hispanic, Latino, Middle Eastern).
+* `[date&time]` is in the format of yyyymmddHHMMSSFFF, showing the date and time an image was collected to UTKFace
 
 
+This dataset/hosting of the dataset is credited to: [Yang Song](http://web.eecs.utk.edu/~ysong18/) and [Zhifei Zhang](http://web.eecs.utk.edu/~zzhang61/).
