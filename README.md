@@ -44,6 +44,6 @@ The company has released access to its production API so that we can test the so
 
 ## Datset
 UTKFace dataset:
-<img src=[https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/568dba99df7392aadda358e745e3133567f621f0/components/vaccineBooth.jpg](https://raw.githubusercontent.com/aicip/UTKFace/master/icon/logoWall2.jpg) width=200>
+<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/22f1c2c5a620eb8d53f5167a26d5f39c5bbfb029/components/logoWall2.jpg width=200>
 
 we will be using 
