@@ -74,6 +74,44 @@ This dataset/hosting of the dataset is credited to: [Yang Song](http://web.eecs.
 Vavintiilo API URL: `URL Goes Here`
 
 ```
-I am sample Code
-API URL: 
+import matplotlib.pyplot as plt
+%matplotlib inline  
+import time
+import numpy as np
+
+from PIL import Image
+import glob
+
+import requests
+import json
+
+
+
+apiUrl = 'http://20.66.88.2:8501/v1/models/img_classifier:predict'
+
+def make_prediction(instances):
+    data = json.dumps({"signature_name": "serving_default", "instances": instances.tolist()})
+    headers = {"content-type": "application/json"}
+    json_response = requests.post(apiUrl, data=data, headers=headers)
+    predictions = json.loads(json_response.text)["predictions"]
+    return predictions
+
+
+im=Image.open(r"dataset\UTKFace\50_0_0_20170120221455142.jpg.chip.jpg")
+X = np.array(im)
+X = X /255
+
+    
+instances = np.array(X)
+X = X.reshape(1,200, 200, 3).astype('float32')
+
+predictions = make_prediction(X)
+
+pred = predictions[0]
+imgplot = plt.imshow(im)
+plt.show()
+if np.argmax(pred) == 1:
+    print("Female")
+else:
+    print("Male")
 ```
