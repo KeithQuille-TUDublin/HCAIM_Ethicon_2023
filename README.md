@@ -34,7 +34,7 @@ There is a significant concern over the image system, as the vaccines have signi
 
 The company has claimed that it is very accurate at identifying sex when a person enters the booth, thus assuring the public that the overall system is safe. It was trained using the UTKFace dataset which has an almost even distribution of male and female faces (more on this dataset set below). Their rationale is the distribution of sex in teh dataset (almost equal representation, as presented in the figure below):
 
-<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/d3baaaab926dd264c442d25c14142ce30dea500d/components/distribution.png width=200>
+<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/d3baaaab926dd264c442d25c14142ce30dea500d/components/distribution.png width=400>
 
 
 The company has released access to its production API so that we can test the soundness of its sex identification system for the automated booths. 
