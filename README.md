@@ -83,6 +83,8 @@ The images are 200 x 200 px in RGB format. This is required for the API.
 
 The Docker Hub Image (not needed for this Ethicon) is: `https://hub.docker.com/repository/docker/kquille/ethicon_api/general`
 
+A Google CoLab copy can be found at: `https://colab.research.google.com/drive/1xwx9rzT7wIJCSAW4Hs28yQ-G3MvexiFh?usp=sharing`
+
 
 ```
 import matplotlib.pyplot as plt
