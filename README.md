@@ -71,7 +71,7 @@ This dataset/hosting of the dataset is credited to: [Yang Song](http://web.eecs.
 
 ## Code
 
-Vavintiilo URL: `URL Goes Here`
+Vavintiilo API URL: `URL Goes Here`
 
 ```
 I am sample Code
