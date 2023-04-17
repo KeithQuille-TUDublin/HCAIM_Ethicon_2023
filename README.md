@@ -59,7 +59,7 @@ We will be using the same dataset as Vanintiilo (<b>note: we used the Aligned&Cr
 
 It can also be downloaded via:  https://1drv.ms/f/s!An-taX4pRW2np7QrH7VlnvqvTd_Iuw?e=Qxnc6M
 
-The labels of each face image is embedded in the file name, formated like `[age]_[gender]_[race]_[date&time].jpg`
+The labels of each face image are embedded in the file name, formatted like `[age]_[gender]_[race]_[date&time].jpg`
 
 * `[age]` is an integer from 0 to 116, indicating the age
 * `[gender]` is either 0 (male) or 1 (female)
