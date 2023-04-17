@@ -71,7 +71,7 @@ This dataset/hosting of the dataset is credited to: [Yang Song](http://web.eecs.
 
 ## Code
 
-Vavintiilo API URL: `http://20.66.88.2:8501/v1/models/img_classifier:predict`
+Vavintiilo API URL: `http://20.254.176.109:8501/v1/models/img_classifier:predict`
 
 **Notes**: The code below assomes you have the following folder structure (you can cahange this depending on the IDE you are using):
 - dataset
@@ -98,7 +98,7 @@ import json
 
 
 
-apiUrl = 'http://20.66.88.2:8501/v1/models/img_classifier:predict'
+apiUrl = 'http://20.254.176.109:8501/v1/models/img_classifier:predict'
 
 def make_prediction(instances):
     data = json.dumps({"signature_name": "serving_default", "instances": instances.tolist()})
