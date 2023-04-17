@@ -97,9 +97,10 @@ import requests
 import json
 
 
-
+# API URL and restful port
 apiUrl = 'http://20.254.176.109:8501/v1/models/img_classifier:predict'
 
+# function to query API
 def make_prediction(instances):
     data = json.dumps({"signature_name": "serving_default", "instances": instances.tolist()})
     headers = {"content-type": "application/json"}
@@ -107,17 +108,21 @@ def make_prediction(instances):
     predictions = json.loads(json_response.text)["predictions"]
     return predictions
 
-
+# This path for the images will be different depending on local IDE used
 im=Image.open(r"dataset\UTKFace\50_0_0_20170120221455142.jpg.chip.jpg")
+
+# Convert image to array and normalise (the RGB range is 256 values thus 0-255 is the normalisation range) 
 X = np.array(im)
 X = X /255
 
-    
+# Converting to array and reshaping for use in the CNN ([one image, 200 px, 200px, 3 channels RGB])    
 instances = np.array(X)
 X = X.reshape(1,200, 200, 3).astype('float32')
 
+# Make prediction from API
 predictions = make_prediction(X)
 
+# Show prediction and plot image used
 pred = predictions[0]
 imgplot = plt.imshow(im)
 plt.show()
