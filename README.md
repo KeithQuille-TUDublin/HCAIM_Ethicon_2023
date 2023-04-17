@@ -76,7 +76,7 @@ Vavintiilo API URL: `[URL Goes Here](http://20.66.88.2:8501/v1/models/img_classi
 **Notes**: The code below assomes you have the following folder structure (you can cahange this depending on the IDE you are using):
 - dataset
   - UKTFace
-    - <Images>
+    - <i>Images</i>
 
   
 The images are 200 x 200 px in RGB format. This is required for the API. 
