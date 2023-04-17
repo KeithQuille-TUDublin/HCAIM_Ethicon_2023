@@ -123,3 +123,7 @@ if np.argmax(pred) == 1:
 else:
     print("Male")
 ```
+
+**Sample output:**
+<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/1bcf497ed3621c89f2935b0ac5924497892a245a/components/sampleOutput.png width=400>
+
