@@ -19,7 +19,7 @@
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/16e35b153209d97dd526bdb37ecebdbae9dcd46b/components/evilVacCompany.jpg width=200>
 
 
-A new vaccine company- Vanintiilo, has created a new vaccine that claims to eliminate cancer. They plan to roll this out without the need for clinicians or doctors to administer the vaccine itself, thus aiming to stop delays and provide vaccines for everyone on the planet in a very short time. 
+A new vaccine company- Vavintiilo, has created a new vaccine that claims to eliminate cancer. They plan to roll this out without the need for clinicians or doctors to administer the vaccine itself, thus aiming to stop delays and provide vaccines for everyone on the planet in a very short time. 
 
 
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/568dba99df7392aadda358e745e3133567f621f0/components/vaccineBooth.jpg width=200>
@@ -41,7 +41,7 @@ The company has released access to its production API so that we can test the so
 
 
 ## Instructions
-The Ethicon challenges students to investigate if the Vanintiilo facial identification system is indeed as accurate as they say and if it negatively affects target-groups (such as gender, race or age). To do this you must download images from the UTKFace dataset (see Dataset section for details). Then you must use the sample code that uses the Vanintiilo API to determine if the system is biased. There are three parts to the Ethicon:
+The Ethicon challenges students to investigate if the Vavintiilo facial identification system is indeed as accurate as they say and if it negatively affects target-groups (such as gender, race or age). To do this you must download images from the UTKFace dataset (see Dataset section for details). Then you must use the sample code that uses the Vavintiilo API to determine if the system is biased. There are three parts to the Ethicon:
 
 * First you must carefully (due to time constraints and API call limitations - it takes time per API request) select sample images that are representative of gender, race and age and determine if the system is as good as they say at predicting the gender of the person entering the booth. **(time allotted 1 hour)**
 
@@ -55,7 +55,7 @@ UTKFace dataset:
 
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/22f1c2c5a620eb8d53f5167a26d5f39c5bbfb029/components/logoWall2.jpg width=400>
 
-We will be using the same dataset as Vanintiilo (<b>note: we used the Aligned&Cropped Faces version</b>), full details on this dataset, its file naming scheme and the download zip file can be found at: https://github.com/aicip/UTKFace 
+We will be using the same dataset as Vavintiilo (<b>note: we used the Aligned&Cropped Faces version</b>), full details on this dataset, its file naming scheme and the download zip file can be found at: https://github.com/aicip/UTKFace 
 
 It can also be downloaded via:  https://1drv.ms/f/s!An-taX4pRW2np7QrH7VlnvqvTd_Iuw?e=Qxnc6M
 
@@ -70,6 +70,8 @@ The labels of each face image are embedded in the file name, formatted like `[ag
 This dataset/hosting of the dataset is credited to: [Yang Song](http://web.eecs.utk.edu/~ysong18/) and [Zhifei Zhang](http://web.eecs.utk.edu/~zzhang61/).
 
 ## Code
+
+Vavintiilo URL: `URL Goes Here`
 
 ```
 I am sample Code
