@@ -135,6 +135,8 @@ else:
 ```
 
 **Sample output:**
-<br>
+<br><br>
+
+
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/1bcf497ed3621c89f2935b0ac5924497892a245a/components/sampleOutput.png width=800>
 
