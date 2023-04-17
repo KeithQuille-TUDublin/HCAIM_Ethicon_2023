@@ -25,14 +25,14 @@ A new vaccine company- Vanintiilo, has created a new vaccine that claims to elim
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/568dba99df7392aadda358e745e3133567f621f0/components/vaccineBooth.jpg width=200>
 
 
-To do this they are building automatic vaccine booths where a picture is taken as a person walks in to the booth to recieve their vaccine, and depending on the AI that processes the image, one of two vaccines are administered. 
+To do this they are building automatic vaccine booths where a picture is taken as a person enters the booth to receive their vaccine, and depending on the AI that processes the image, one of two vaccines is administered. 
 
 **Concerns for Ethicon**
 
 There is a significant concern over the image system, as the vaccines have significant effects if given to the wrong sex. The company makes two vaccines, one for males and one for females. If given to the wrong sex, the vaccine can have significant effects on the reproduction system for that person, thus the image recognition system for the automated booths is a real concern.
 
 
-The company has claimed that it is very accurate at identifying sex when a person enters the booth, thus assuring the public that the overall system is safe. It was trained using the UTKFace dataset which has an almost even distribution of male and female faces (more on this dataset set below). Their rationale is the distribution of sex in teh dataset (almost equal representation, as presented in the figure below):
+The company has claimed that it is very accurate at identifying sex when a person enters the booth, thus assuring the public that the overall system is safe. It was trained using the UTKFace dataset which has an almost even distribution of male and female faces (more on this dataset set below). Their rationale is the distribution of sex in the dataset (almost equal representation, as presented in the figure below):
 
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/d3baaaab926dd264c442d25c14142ce30dea500d/components/distribution.png width=400>
 
@@ -41,9 +41,9 @@ The company has released access to its production API so that we can test the so
 
 
 ## Instructions
-The Ethicon challenges students to investigate if the Vanintiilo facial idenitification system is indeed as accurate as they say and if it negatively affects target-groups (such as gender, race or age). To do this you must downlaod images from the UTKFace dataset (see Dataset section for details). They you must use the sample code that uses the Vanintiilo API to determine if the system is biased. There are three parts to the Ethicon:
+The Ethicon challenges students to investigate if the Vanintiilo facial identification system is indeed as accurate as they say and if it negatively affects target-groups (such as gender, race or age). To do this you must download images from the UTKFace dataset (see Dataset section for details). Then you must use the sample code that uses the Vanintiilo API to determine if the system is biased. There are three parts to the Ethicon:
 
-* First you must carefully (due to time constraintes and API call limitations - it takes time per API request) select sample images that are representative of gender, race and age and determine if the system is as good as they say at predicting the gender of the person entering the booth. **(time alloted 1 hour)**
+* First you must carefully (due to time constraints and API call limitations - it takes time per API request) select sample images that are representative of gender, race and age and determine if the system is as good as they say at predicting the gender of the person entering the booth. **(time allotted 1 hour)**
 
 * The conclusion of this Ethicon is a presentation detailing any biases that you have found and how they may affect the people being vaccinated. **(time allotted 30 minutes)**
 
@@ -55,7 +55,7 @@ UTKFace dataset:
 
 <img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/22f1c2c5a620eb8d53f5167a26d5f39c5bbfb029/components/logoWall2.jpg width=400>
 
-We will be using the same dataset as Vanintiilo (<b>note: we used the Aligned&Cropped Faces version</b>), full details on this dataset, its file nameing scheme and the download zip file can be found at: https://github.com/aicip/UTKFace 
+We will be using the same dataset as Vanintiilo (<b>note: we used the Aligned&Cropped Faces version</b>), full details on this dataset, its file naming scheme and the download zip file can be found at: https://github.com/aicip/UTKFace 
 
 It can also be downloaded via:  https://1drv.ms/f/s!An-taX4pRW2np7QrH7VlnvqvTd_Iuw?e=Qxnc6M
 
