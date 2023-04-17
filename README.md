@@ -79,7 +79,9 @@ Vavintiilo API URL: `http://20.66.88.2:8501/v1/models/img_classifier:predict`
     - <i>Images</i>
 
   
-The images are 200 x 200 px in RGB format. This is required for the API. 
+The images are 200 x 200 px in RGB format. This is required for the API.
+
+The Docker Hub Image (not needed for this Ethicon) is: `https://hub.docker.com/repository/docker/kquille/ethicon_api/general`
 
 
 ```
