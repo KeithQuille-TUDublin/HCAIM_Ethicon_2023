@@ -71,7 +71,7 @@ This dataset/hosting of the dataset is credited to: [Yang Song](http://web.eecs.
 
 ## Code
 
-Vavintiilo API URL: `[URL Goes Here](http://20.66.88.2:8501/v1/models/img_classifier:predict)`
+Vavintiilo API URL: `http://20.66.88.2:8501/v1/models/img_classifier:predict`
 
 **Notes**: The code below assomes you have the following folder structure (you can cahange this depending on the IDE you are using):
 - dataset
@@ -80,7 +80,8 @@ Vavintiilo API URL: `[URL Goes Here](http://20.66.88.2:8501/v1/models/img_classi
 
   
 The images are 200 x 200 px in RGB format. This is required for the API. 
-  
+
+
 ```
 import matplotlib.pyplot as plt
 %matplotlib inline  
@@ -125,5 +126,6 @@ else:
 ```
 
 **Sample output:**
-<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/1bcf497ed3621c89f2935b0ac5924497892a245a/components/sampleOutput.png width=400>
+<br>
+<img src=https://github.com/KeithQuille-TUDublin/HCAIM_Ethicon_2023/blob/1bcf497ed3621c89f2935b0ac5924497892a245a/components/sampleOutput.png width=800>
 
