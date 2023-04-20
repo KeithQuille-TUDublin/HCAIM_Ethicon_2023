@@ -100,7 +100,7 @@ import json
 
 
 # API URL and restful port
-apiUrl = 'http://20.254.176.109:8501/v1/models/img_classifier:predict'
+apiUrl = 'http://20.254.152.7:8501/v1/models/img_classifier:predict'
 
 # function to query API
 def make_prediction(instances):
