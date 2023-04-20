@@ -71,7 +71,7 @@ This dataset/hosting of the dataset is credited to: [Yang Song](http://web.eecs.
 
 ## Code
 
-Vavintiilo API URL: `http://20.254.176.109:8501/v1/models/img_classifier:predict`
+Vavintiilo API URL: `http://20.254.152.7:8501/v1/models/img_classifier:predict`
 
 **Notes**: The code below assomes you have the following folder structure (you can cahange this depending on the IDE you are using):
 - dataset
